@@ -22,9 +22,11 @@ namespace WinFormsApp7_2
             }
         }
 
+        // 選択した名前に対応する電話番号を表示する
         private void NameSelected(object sender, EventArgs e)
         {
-
+            string name = this.nameList.Text;
+            this.phoneNumber.Text = this.phoneBook[name];
         }
     }
 }
