@@ -26,7 +26,7 @@ namespace WinFormsApp7_2
         private void NameSelected(object sender, EventArgs e)
         {
             string name = this.nameList.Text;
-            this.phoneNumber.Text = this.phoneBook[name];
+            this.phoneNumber.Text = this.phoneBook[name]; // Dictionaryからデータを取り出す
         }
     }
 }
