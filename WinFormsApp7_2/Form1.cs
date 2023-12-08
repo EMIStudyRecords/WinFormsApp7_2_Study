@@ -14,6 +14,12 @@ namespace WinFormsApp7_2
             this.phoneBook.Add("山田二郎", "090-2345-6789");
             this.phoneBook.Add("山田三郎", "090-3456-7890");
             this.phoneBook.Add("山田史郎", "090-4567-8901");
+
+            // リストに名前を表示させる
+            foreach (KeyValuePair<string,string> data in phoneBook)
+            {
+                this.nameList.Items.Add(data.Key);
+            }
         }
 
         private void NameSelected(object sender, EventArgs e)
