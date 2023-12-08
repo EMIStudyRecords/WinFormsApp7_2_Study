@@ -60,6 +60,7 @@
             nameList.Name = "nameList";
             nameList.Size = new Size(175, 144);
             nameList.TabIndex = 2;
+            nameList.SelectedIndexChanged += NameSelected;
             // 
             // phoneNumber
             // 

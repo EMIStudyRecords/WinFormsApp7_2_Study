@@ -6,5 +6,10 @@ namespace WinFormsApp7_2
         {
             InitializeComponent();
         }
+
+        private void NameSelected(object sender, EventArgs e)
+        {
+
+        }
     }
 }
